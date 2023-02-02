@@ -46,7 +46,6 @@ Developed by: sivaram R
 RegisterNumber: 22008680
 '''
 def insertion_sort(nums):
-    # Write your code here to sort the elements in the list using Insertion sort algorithm
     for i in range(1,len(nums)):
         item_to_insert=nums[i]
         j=i-1
